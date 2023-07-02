@@ -12,6 +12,7 @@ go get github.com/teyotan/dtogen
 
 ```
 //go:generate go run -mod=mod dtogen.go
+go run cmd/dtogen/*.go
 ```
 
 ## Todo List
